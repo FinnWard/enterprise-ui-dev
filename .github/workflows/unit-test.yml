@@ -6,6 +6,7 @@ on:
   pull_request:
     branches: [main]
 
+    # trigger pipeline
 jobs:
   test:
     runs-on: ubuntu-latest
